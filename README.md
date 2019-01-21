@@ -20,4 +20,4 @@ Het doel van deze pagina is om de gebruiker zijn kennis in web-development te la
 Op deze pagina kunnen de bezoekers na een lange dag testen maken een beetje ontspannen. In totaal wil ik minstens 3 spelletjes maken maar ik zal later er misschien nog wat meer maken. Tot nu toe heb ik twee succesvolle spelletjes, namelijk een ping-pong spel gemaakt met canvas en een memory-spel gemaakt met jQuery.
 
 ## Extra : wat ik tot nu toe al gebruikt hebt
-HTML, CSS, javascript, jQuery, SASS en Bootstrap.
+HTML, CSS, Javascript, jQuery, SASS en Bootstrap.
