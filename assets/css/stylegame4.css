@@ -1,0 +1,10 @@
+body {
+  background: #adebad;
+}
+
+.imgafstand {
+  height: 400px;
+}
+#myCanvas{
+  border: 5px solid red;
+}

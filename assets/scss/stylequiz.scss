@@ -1,0 +1,36 @@
+#redo{
+  visibility: hidden;
+  text-align: center;
+}
+#finished{
+ @extend #redo;
+}
+#result{
+  text-align: center;
+  font-family: monospace;
+  font-size: 25px;
+}
+#continue{
+  text-align: center;
+  font-family: monospace;
+  font-size : 20px;
+}
+.jumbotron{
+  background-color: #6b747c;
+  color:white;
+  text-align: center;
+}
+#test{
+  @extend #continue;
+}
+#test_status{
+  @extend #result;
+
+}
+#background{
+  background-color: #6b747c;
+  border-radius: 25px;
+}
+.last-button{
+  margin-bottom: 15px;
+}

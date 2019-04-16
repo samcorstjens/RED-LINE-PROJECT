@@ -1,0 +1,33 @@
+#redo, #finished {
+  visibility: hidden;
+  text-align: center;
+}
+
+#result, #test_status {
+  text-align: center;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+#continue, #test {
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.jumbotron {
+  background-color: #6b747c;
+  color: white;
+  text-align: center;
+}
+
+#background {
+  background-color: #6b747c;
+  border-radius: 25px;
+}
+
+.last-button {
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=stylequiz.css.map */

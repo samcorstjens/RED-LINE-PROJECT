@@ -1,0 +1,16 @@
+body{
+  background: #adebad;
+  font-family:"Times New Roman", sans-serif;
+}
+form h3{
+  color : white;
+}
+p{
+   text-align: center;
+   color: white;
+   font-size:15px;
+}
+.responsiveimg{
+  max-width: 100%;
+  height : auto;
+}

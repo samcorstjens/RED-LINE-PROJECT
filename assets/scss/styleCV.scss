@@ -1,0 +1,63 @@
+body{
+background : url('.././img/Kaft.jpg');
+background-size: cover;
+}
+
+
+#MijnCV{
+  background : url('.././img/cvback.png');
+  position: relative;
+  border:2px solid gray;
+  margin-left: 200px;
+  margin-right:200px;
+  color:white;
+
+.Hoofdinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  img{
+    border : 2px solid black;
+    width : 170px;
+    height : 150px;
+    margin-top : 10px;
+    margin-left:25px;
+    margin-bottom:25px;
+  }
+  #HoofdKolom1{
+    margin-top:35px;
+  }
+#HoofdKolom2{
+  margin-top:35px;
+}
+}
+#main{
+padding: 0 40px;
+.gids{
+  float : left;
+}
+.gidsinfo{
+margin-left:180px;
+}
+section {
+  border-top: 1px solid #dedede;
+  padding: 15px 0 0;
+}
+.Lijst {
+	list-style-type: square;
+	-moz-column-count:4;
+	-webkit-column-count:4;
+	column-count:2;
+	margin-bottom: 25px;
+	font-size: 1em;
+  li{
+    margin-bottom: 3px;
+    font-size: 0.8em;
+  }
+}
+
+
+}
+
+}

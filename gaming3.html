@@ -1,0 +1,159 @@
+<!doctype html>
+<html  lang="nl">
+<head>
+<title>Website Sam</title>
+<meta charset="UTF-8">
+<meta name="bootstrap" content="bootstrap">
+<meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/stylegame5.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+<style>canvas {background: black}</style>
+<script src="assets/js/gaming5.js"></script>
+</head>
+<body onload="init();">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+    <a class="navbar-brand" href="main.html">
+        <img src="assets/img/sam.jpg" width="100px" height="80px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="main.php">Home</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="Leren.php">How to program</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="CV.html">CV</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="Contact.php">Contact</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="Games.php">Games</a>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="index.php">Log-out</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<br></br>
+	<div class="wrapper">
+	<h1>Memory Game!</h1>
+		<div class="table">
+			<div class="field" id="1">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="2">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="3">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="4">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="5">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="6">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="7">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="8">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="9">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="10">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="11">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="12">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="13">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="14">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="15">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="16">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="17">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+			<div class="field" id="18">
+				<div class="inner-wrap">
+					<div class="front"></div>
+					<div class="back"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+      <script src="assets/jquery/jquery-2.2.4.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </body>
+  </html>

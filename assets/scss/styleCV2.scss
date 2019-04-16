@@ -1,0 +1,48 @@
+body{
+background : url('.././img/cvblack3.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+
+.compleet{
+  color:white;
+  border : 2px solid white;
+.row{
+  border-bottom: 2px solid white;
+  .Lijst {
+  	list-style-type: square;
+  	-moz-column-count:4;
+  	-webkit-column-count:4;
+  	column-count:2;
+  	margin-bottom: 25px;
+  	font-size: 1em;
+
+    li{
+      margin-bottom: 3px;
+      font-size: 0.8em;
+    }
+
+
+}
+.subject{
+  font-style : italic;
+  text-decoration: underline;
+}
+img{
+  padding:5px;
+  border-radius: 50%;
+  width : 150px;
+  height : 150px;
+
+}
+.inhoudtekst{
+  padding-top: 5px;
+  text-align: center;
+}
+.hoofdinfo{
+  padding-top : 10px;
+}
+}
+}
+}

@@ -1,0 +1,26 @@
+body{
+  background:#EBF2F1;
+  margin-top:70px;
+}
+.divstyle{
+  background: #6099A6;
+  box-shadow: 2px 5px;
+  border:0.5em solid black;
+  width:650px;
+  p{
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    input{
+      font-size:15px;
+    }
+  }
+  #fouten{
+    p{
+    color : red;
+    font-size : 10px;
+    display : none;
+  }
+}
+}

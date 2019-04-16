@@ -1,0 +1,23 @@
+div{
+  background:#EBF2F1;
+  background:url(".././img/logo_Becode.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+h2{
+  background-color:white;
+}
+img{
+  border : 1px solid black;
+  border-radius: 50%;
+
+}
+a{
+  color : #6099A6;
+  text-decoration: none;
+  font-weight: bold;
+  &:hover{
+    color : #024059;
+  }
+}
+}

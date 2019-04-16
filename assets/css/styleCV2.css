@@ -1,0 +1,45 @@
+body {
+  background: url(".././img/cvblack3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+body .compleet {
+  color: white;
+  border: 2px solid white;
+}
+body .compleet .row {
+  border-bottom: 2px solid white;
+}
+body .compleet .row .Lijst {
+  list-style-type: square;
+  -moz-column-count: 4;
+  -webkit-column-count: 4;
+  column-count: 2;
+  margin-bottom: 25px;
+  font-size: 1em;
+}
+body .compleet .row .Lijst li {
+  margin-bottom: 3px;
+  font-size: 0.8em;
+}
+body .compleet .row .subject {
+  font-style: italic;
+  text-decoration: underline;
+}
+body .compleet .row img {
+  padding: 5px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+body .compleet .row .inhoudtekst {
+  padding-top: 5px;
+  text-align: center;
+}
+body .compleet .row .hoofdinfo {
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=styleCV2.css.map */
