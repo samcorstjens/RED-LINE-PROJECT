@@ -20,4 +20,7 @@ Het doel van deze pagina is om de gebruiker zijn kennis in web-development te la
 Op deze pagina kunnen de bezoekers na een lange dag testen maken een beetje ontspannen. In totaal staan er 4 spelletjes, namelijk Hangman, Snake, Memory en Tetris.
 
 ## Extra : wat ik tot nu toe al gebruikt hebt
-HTML, CSS, Javascript, jQuery, SASS, Bootstrap and PHP.
+HTML, CSS, Javascript, jQuery, SASS, Mysql Bootstrap and PHP.
+
+### Database
+Voor deze site om te werken moet je met mysql een database maken genaamd RED_LINE_PROJECT met daarin een table login. Deze table bevat een ID veld waar ook de primary-key staat. Daarna maak je een text-column voor Username, Firstname, Lastname, Email, Phone, Password en Repeat_Password.
