@@ -4,7 +4,7 @@ Door Corstjens Sam
 ## Deel 1 : Sign-in
 Met de sign-in is het mogelijk om je in te loggen in de website door je E-mail en wachtwoord in te geven. Alleen wanneer zowel de login-naam als het wachtwoord in de database staat zal je toegang krijgen tot de rest van de website. In het geval dat je nog geen login-naam hebt kun je je laten registreren in de registratie-pagina. Hier word om wat basis informatie gevraagd die gecontroleerd word op basis van hun opmaak. Als alles in orde is kun je doorgaan naar de rest van de website.
 
-## Deel 2 : Thuis-pagina
+## Deel 2 : Main-pagina
 Dit is het hoofdvenster van mijn website. Op deze pagina maak ik wat reclame over programmeren, Becode en meer. Mijn website heeft 4 hoofddoelen. De eerste is een CV-pagina en de tweede een contact-pagina. De derde is het hoofddoel van mijn site, namelijk een pagina waar je kan leren programmeren. Als laatste een spelletjes-pagina waar men kan ontspannen na een lange dag van leren.
 
 ## Deel 3 : CV
